@@ -61,6 +61,6 @@ jobs:
       
     - name: Cache build
       uses: actions/cache@v3
-    with:
-      key: cached-build-${{github.sha}}
-      path: .
+      with:
+        key: cached-build-${{github.sha}}
+        path: .
